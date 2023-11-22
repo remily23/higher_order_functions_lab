@@ -13,9 +13,9 @@ describe('ScranAdvisor', () => {
         expect(scranAdvisor.restaurants).not.toBeNull();
     })
 
-    test.skip('can count the number of restaurants', () => {
+    test('can count the number of restaurants', () => {
         const expected = 23;
-        const actual = null;
+        const actual = scranAdvisor.countRestaurants();
         expect(actual).toBe(expected);
     })
 
